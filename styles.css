@@ -1,0 +1,40 @@
+body {
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#terminal {
+    white-space: pre-line;
+    font-size: 22px;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li:hover {
+    background: rgba(0,255,0,0.2);
+}
+
+#visor {
+    margin-top: 20px;
+    border: 1px solid #00ff00;
+    padding: 15px;
+    white-space: pre-line;
+}#marca {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    color: #00ff00;
+    font-size: 14px;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
